@@ -21,8 +21,6 @@ Machine learning (ML) involves training models to recognize patterns in data.
 - **Clustering Models**: Used to group similar data points together.
 - **Dimensionality Reduction**: Reduces the number of input features while preserving essential information.
 
-![Machine Learning Concepts](A_modern_and_clean_infographic_showing_the_key_con.png)
-
 ### Learning Methods
 
 - **Machine Learning (ML)**: Systems that learn from data.
@@ -34,8 +32,6 @@ Machine learning (ML) involves training models to recognize patterns in data.
 ## 3. Core TensorFlow Functions & Concepts
 
 Tensors are the fundamental building blocks of machine learning models. They are multi-dimensional arrays.
-
-![Tensors Visualization](A_simple,_colorful_visual_example_of_tensors_in_ma.png)
 
 ### Operations
 
@@ -65,8 +61,6 @@ model.add(tf.layers.dense({units: 1, inputShape: [1]}))
 model.compile({optimizer: 'sgd', loss: 'meanSquaredError'})
 model.fit(xs, ys, {epochs: 50})
 ```
-
-![Neural Network Diagram](A_visually_appealing_image_of_a_neural_network_dia.png)
 
 This simple process of defining, compiling, and training a model forms the foundation of most machine learning models.
 
